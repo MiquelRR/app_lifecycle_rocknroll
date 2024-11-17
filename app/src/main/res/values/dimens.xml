@@ -1,0 +1,14 @@
+<resources>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="over_image_v_background_text_padding">3dp</dimen>
+    <dimen name="over_image_h_background_text_padding">20dp</dimen>
+    <dimen name="cardview_title_size">18sp</dimen>
+    <dimen name="cardview_info_text_size">14sp</dimen>
+    <dimen name="cardview_padding">15dp</dimen>
+    <dimen name="shop_item_margin">10dp</dimen>
+    <dimen name="cardview_text_margin">3dp</dimen>
+    <dimen name="item_description_text">12sp</dimen>
+    <item name="cardview_alpha" format="float" type="dimen">.6</item>
+</resources>

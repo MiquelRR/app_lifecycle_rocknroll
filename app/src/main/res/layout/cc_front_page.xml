@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="centerCrop"
+    android:id="@+id/image_container">
+
+        <ImageView
+            android:id="@+id/picture"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constrainedHeight="true"
+            android:contentDescription="@string/photo_explain"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cc_gran_turia"
+            />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/box_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:padding="@dimen/cardview_padding">
+
+            <TextView
+                android:id="@+id/nameCC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/background_for_text_on_card_view"
+                android:text="@string/center_name"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/cardview_title_size"
+                android:textStyle="bold"
+                android:paddingVertical="@dimen/over_image_v_background_text_padding"
+                android:paddingHorizontal="@dimen/over_image_h_background_text_padding"
+                android:layout_marginBottom="@dimen/cardview_text_margin"
+                app:layout_constraintBottom_toTopOf="@id/address"
+                app:layout_constraintStart_toStartOf="@id/box_text" />
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/background_for_text_on_card_view"
+                android:text="@string/certer_addres"
+                android:textColor="@android:color/white"
+                app:layout_constraintBottom_toBottomOf="@id/box_text"
+                app:layout_constraintStart_toStartOf="@id/box_text"
+                android:paddingVertical="@dimen/over_image_v_background_text_padding"
+                android:paddingHorizontal="@dimen/over_image_h_background_text_padding"
+                android:textSize="@dimen/cardview_info_text_size" />
+
+            <TextView
+                android:id="@+id/qtyShops"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/background_for_text_on_card_view"
+                android:text="@string/shops_qty"
+                android:textColor="@android:color/white"
+                app:layout_constraintEnd_toEndOf="@id/box_text"
+                app:layout_constraintBottom_toBottomOf="@id/nameCC"
+                android:paddingVertical="@dimen/over_image_v_background_text_padding"
+                android:paddingHorizontal="@dimen/over_image_h_background_text_padding"
+                android:textSize="@dimen/cardview_info_text_size" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

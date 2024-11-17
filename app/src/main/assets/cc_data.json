@@ -1,0 +1,60 @@
+[
+  {
+    "nameCC": "CC Arena",
+    "address": "En Benimaclet, al al lado del estadio granota",
+    "img": "cc_arena",
+    "shopList": [
+      { "name": "Rodilla", "description": "Sanwichwes chungos", "category": "Restauración"},
+      { "name": "Milar", "description": "Electrónica y gadgets", "category": "Bazar" },
+      { "name": "Copy A3", "description": "Copistería", "category": "Servicios" },
+      { "name": "Juguetrónica", "description": "Juguetes chungos", "category": "Bazar"  },
+      { "name": "Zapatrónica", "description": "Zapatos del pie izquierdo", "category": "Moda"  }
+    ],
+    "track": "serenade"
+  },
+  {
+    "nameCC": "CC Ademúz",
+    "address": "En General Avilés con Pio XII, València",
+    "img": "cc_ademuz",
+    "shopList": [
+      { "name": "MacDonalds", "description": "Comida Basura", "category": "Restauración" },
+      { "name": "Mango", "description": "Ropa para gente que se cree clase media","category": "Moda" },
+      { "name": "Dsigual", "description": "Ropa diferente para quien quiere ser igual","category": "Moda" },
+      { "name": "Belros", "description": "Tienda de chucherias y promoción de la odontología","category": "Restauración" }
+    ],
+    "track": "dust"
+  },
+  {
+    "nameCC": "MN4",
+    "address": "En la pista de silla, Alfafar",
+    "img": "cc_mn4",
+    "shopList": [
+      { "name": "Amatista", "description": "Piedras que te vas a creer que hacen algo en tu salud", "category": "Bazar" },
+      { "name": "MasCoCotas", "description": "Si no tienes hijos, gasta la pasta en tus bichos", "category": "Mascotas"  },
+      { "name": "Naipies", "description": "Moda y complementos" , "category": "Moda" },
+      { "name": "Mercarronya", "description": "Supermercado que adoctrina sus clientes y explota a sus proveedores", "category": "Alimentación"  }
+    ],
+    "track": "lola"
+  },
+  {
+    "nameCC": "CC Gran Turia",
+    "address": "Al lado de la V30, entre València y Xirivella",
+    "img": "cc_gran_turia",
+    "shopList": [
+      { "name": "MacDonalds", "description": "Comida Basura", "category": "Restauración" },
+      { "name": "Mango", "description": "Ropa para gente que se cree clase media","category": "Moda" },
+      { "name": "Dsigual", "description": "Ropa diferente para quien quiere ser igual","category": "Moda" },
+      { "name": "Belros", "description": "Tienda de chucherias y promoción de la odontología","category": "Restauración" },
+      { "name": "Rodilla", "description": "Sanwichwes chungos", "category": "Restauración"},
+      { "name": "Milar", "description": "Electrónica y gadgets", "category": "Bazar" },
+      { "name": "Copy A3", "description": "Copistería", "category": "Servicios" },
+      { "name": "Juguetrónica", "description": "Juguetes chungos", "category": "Bazar"  },
+      { "name": "Zapatrónica", "description": "Zapatos del pie izquierdo", "category": "Moda"  },
+      { "name": "Amatista", "description": "Piedras que te vas a creer que hacen algo en tu salud", "category": "Bazar" },
+      { "name": "MasCoCotas", "description": "Si no tienes hijos, gasta la pasta en tus bichos", "category": "Mascotas"  },
+      { "name": "Naipies", "description": "Moda y complementos" , "category": "Moda" },
+      { "name": "Mercarronya", "description": "Supermercado que adoctrina sus clientes y explota a sus proveedores", "category": "Alimentación"  }
+    ],
+    "track": "jesucristo_garcia"
+  }
+]
