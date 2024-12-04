@@ -1,6 +1,6 @@
 # Lifecycle control app
 
-This is an practice to control data persistence in android apps while views, orientation or focus over the apa are changed.
+This is an practice to control data persistence in android apps while views, orientation or focus over the app are changed.
 
 As a improvement it's implemented:
 - multiple track play position control
